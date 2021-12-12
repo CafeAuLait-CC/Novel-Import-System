@@ -1,0 +1,26 @@
+Title	Author	Publisher	Publish_Date	Edition	ISBN10	ISBN13	Ranking_in_Amazon	Genre
+The Man Who Died Twice	Richard Osman	Viking	Sept-16-2021	1st	241425425	978-0241425428	1	Crime
+The Thursday Murder Club	Richard Osman	Viking	Sept-03-2020	unknown	241425441	978-0241425442	557	Crime
+The World Cup Of Everything: Bringing the fun home	Richard Osman	Coronet	Oct-05-2017	1st	1473667267	978-1473667266	64941	Trivia Games
+The Midnight Library	Matt Haig	Canongate Books	Aug-13-2020	Main edition	1786892707	978-1786892706	2281	Science fiction
+The Comfort Book	Matt Haig	Canongate Books	July-06-2021	Main edition	1786898292	978-1786898296	306	Psychology
+A Boy Called Christmas	Matt Haig	Canongate Books	Nov-05-2015	Main edition	178211789X	978-1782117896	6060	Fantasy
+How to Stop Time	Matt Haig	Canongate Books	July-06-2017	Main edition	9781782118619	978-1782118619	170375	Literary Fiction
+Reasons to Stay Alive	Matt Haig	Canongate Books	Mar-05-2015	Main edition	1782115080	978-1782115083	42094	Psychology
+The Humans	Matt Haig	Canongate Books	May-09-2013	Main edition	857868756	978-0857868756	552285	Literary Fiction
+The Radleys	Matt Haig	Free Pr	Dec-28-2010	First Edition	9781439194010	978-1439194010	984138	Fantasy
+Winter Wedding	Dilly Court 	HarperCollins	Sept-16-2021	unknown	8435529	978-0008435523	342296	Historical romance
+Fortune's Daughter	Dilly Court 	HarperCollins	May-13-2021	unknown	8435480	978-0008435486	322354	Historical romance
+The Christmas Rose	Dilly Court 	HarperCollins	Oct-04-2018	unknown	8199671	978-0008199678	475028	Historical romance
+The Mistletoe Seller	Dilly Court 	HarperCollins	Oct-05-2017	unknown	000819954X	978-0008199548	469172	Historical romance
+The Country Bride	Dilly Court 	HarperCollins	May-14-2020	unknown	8287821	978-0008287825	1501930	Historical romance
+The Lord of the Rings	J.R.R.Tolkien	HarperCollins	Oct-14-2021	unknown	8471282	978-0008471286	2297	Classic ficion
+Letters from Father Christmas: Centenary edition	J.R.R.Tolkien	HarperCollins	Oct-29-2020	unknown	8406847	978-0008406844	2367	Fantasy
+The Hobbit 	J.R.R.Tolkien	HarperCollins	Sept-17-2007	New Edition	261103288	978-0261103283	14250	Fantasy
+Mr Bliss	J.R.R.Tolkien	HarperCollins	Sept-29-2011	unknown	000743619X	978-0007436194	298851	Classic ficion
+"The Hobbit, or There and Back Again"	J.R.R.Tolkien	HarperCollins	Jan-01-1991	Reprint edition	261102001	978-0261102002	81184	Fantasy
+All the Light We Cannot See	Anthony Doerr	Scribner Book Company	May-06-2014	unknown	1476746583	978-1501132872	264774	Historical Fiction
+Cloud Cuckoo Land	Anthony Doerr	Fourth Estate	Sept-28-2021	unknown	8478295	978-0008478292	287	Fantasy
+About Grace	Anthony Doerr	Scribner	Sept-01-2004	unknown	743261828	978-0743261821	1532145	Literary Fiction
+Memory Wall	Anthony Doerr	Scribner	July-13-2010	1st	1439182809	978-1439182802	3199188	Literary Fiction
+The Shell Collector	Anthony Doerr	Fourth Estate	Nov-17-2016	unknown	9780007146987	978-0007146987	34299	Historical Fiction

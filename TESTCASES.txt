@@ -1,0 +1,178 @@
+Test cases
+
+This file contains the following sections:
+
+	1. Start & Terminate Program
+
+	2. Use custom SQL queries in 'custom mode'
+
+	3. Insert writer and book records in 'add mode'
+
+	4. Delete a record in 'delete mode'
+
+	5. List a record in 'list mode'
+
+	6. Update a record in 'update mode'
+
+	7. Exception handling
+
+
+_______________________________________________________________________________
+*******************************************************************************
+
+1. Start & Terminate Program
+
+	- cmd: `java assignment.Main`      ---- program starts
+	- user input 1: press "ENTER"      ---- new line for input
+
+	- user input 2: type "list"        ---- go to 'list mode'
+	- user input 3: type "quit"        ---- quit 'list mode'
+
+	- user input 4: type "c"           ---- go to 'custom mode'
+	- user input 5: type "quit"        ---- quit 'custom mode'
+	
+	- user input 6: type "exit"        ---- terminate the program
+
+
+
+2. Use custom SQL queries in 'custom mode'
+
+	- Start the program
+	- input 1: type "c"                         ---- go to 'custom mode'
+
+	- input 2: type "select title,author,isbn13 from books where author='Matt Haig'"
+	                                            ---- execute the SQL query
+
+	- input 3: type "select name,date_of_birth from writers where name in (select author from books where title='The Hobbit')"
+	                                            ---- execute the SQL query
+
+	- input 4: type "select title,nationality from books"
+	                                            ---- ERROR! 'BOOKS' does not have the column named 'nationality'
+
+	- input 5: type "quit"                      ---- quit 'custom mode'
+	- input 6: type "exit"                      ---- terminate the program
+
+
+
+3. Insert writer and book records in 'add mode'
+
+	- Start the program
+	- input 1: type "a"                       ---- go to 'add mode'
+
+	- input 2: type "writer"                  ---- add a writer record
+
+	- input 3: type "Arthur Conan Doyle"
+	- input 4: type "May-22-1859"
+	- input 5: type "British"
+	- input 6: type "University of Edinburgh"
+	- input 7: type "Writer, physican"        ---- System out: Record added successfully
+
+	- input 8: type "writer"                  ---- try adding a record that already exists in the database
+	- input 9: type "Matt Haig"
+	- input 10: type "July-03-1975"
+	- input 11: type "British"
+	- input 12: type "University of Hull"
+	- input 13: type "Novelist and journalist" ---- System out: Record of this book already exists!
+
+	- input 14: type "book"                   ---- add a book record
+
+	- input 15: type "A Study in Scarlet"
+	- input 16: type "Arthur Conan Doyle"
+	- input 17: type "CreateSpace Independent Publishing Platform"
+	- input 18: type "June-26-2015"
+	- input 19: type "unknown"
+	- input 20: type "1514698854"
+	- input 21: type "978-1514698853"
+	- input 22: type "259336"
+	- input 23: type "Detective novel"        ---- System out: Record added successfully!
+
+	- input 5: type "quit"                    ---- quit 'add mode'
+	- input 6: type "exit"                    ---- terminate the program
+
+
+
+4. Delete a record in 'delete mode'
+
+	- Start the program
+	- input 1: type "delete"                  ---- go to 'delete mode'
+
+	- input 2: type "book"                    ---- choose to delete a book record
+
+	- input 3: type "How to Stop Time"        ---- System out: Are you sure to delete the following record? (y/N)
+	- input 4: type "y"                       ---- System out: Record deleted! 1 lines changed.
+
+	- input 5: type "How to Stop Time"        ---- Try again!
+	                                          ---- System out: How to Stop Time not found in records!
+
+	- input 6: type "writer"                  ---- choose to delete a writer record
+	- input 7: type "Anthony Doerr"           ---- System out: Are you sure to delete the following record? (y/N)
+
+	- input 8: press ENTER                    ---- No input, use defalut value 'No'
+	                                          ---- Delete operation aborted.
+
+	- input 9: type "quit"                    ---- quit 'delete mode'
+	- input 10: type "exit"                    ---- terminate the program
+
+
+
+5. List a record in 'list mode'
+
+	- Start the program
+	- input 1: type "list"                    ---- go to 'list mode'
+
+	- input 2: type "2"                       ---- list a book record
+
+	- input 3: type "title, author, edition, isbn13"
+	- input 4: type "title, 'Mr Bliss'"       ---- System out: Result of the list query
+
+	- input 5: type "1"                       ---- list a writer record
+	- input 6: type "name, date_of_birth"
+	- input 7: type "gender,'female'"         ---- try a column name that does not exist!
+	                                          ---- System out: Input contains invalid column name "GENDER"! Operation aborted!
+
+	- input 8: type "quit"                    ---- quit 'list mode'
+	- input 9: type "exit"                    ---- terminate the program
+
+
+
+6. Update a record in 'update mode'
+
+	- Start the program
+	- input 1: type "u"                       ---- go to 'update mode'
+
+	- input 2: type "book"                    ---- choose to update book records
+
+	- input 3: type "edition"
+	- input 4: type "1st"
+	- input 5: type "title,'Mr Bliss'"        ---- System out: Record updated! 1 lines changed.
+
+	- input 6: type "quit"                    ---- quit 'update mode'
+	- input 7: type "exit"                    ---- terminate the program
+
+
+
+7. Exceptions
+
+There are many situations where the program may recieve incorrect user inputs. The reasons may be:
+
+	- a typo from user, or
+
+	- the user remembered the table column names wrong.
+
+
+For example, the user may request to list the 'data_of_birth' of a writer (typo, should be 'date_of_birth'), or the 'gender' of a writer (there is no column called 'gender' in the table).
+
+
+While the following cases happens, no matter in which mode, the program will print an error message and abort the ongoing operations:
+
+	* user entered incorrect column_name that doesn't match the column_name in the table;
+
+	* user entered incorrect values the may cause the query to fail;
+
+	* insert a record that already exist in the database in 'add mode';
+
+	* delete a record that does not exist in the database in 'delete mode';
+
+	* in 'delete mode', when searching a book title but the program returns multiple results (same book title, different publisher and ISBN-13);
+
+	* the requested table does not exist, etc...

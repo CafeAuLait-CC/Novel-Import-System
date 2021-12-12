@@ -1,0 +1,6 @@
+Name	Date_of_Birth	Nationality	Alma_Mater	Occupation
+Richard Osman	Nov-28-1970	British	"Trinity College, Cambridge"	"Comedian, producer, television presenter, writer"
+Matt Haig	July-03-1975	British	University of Hull	Novelist and journalist
+Dilly Court 	Unknown	British	Unknown	Author
+J.R.R.Tolkien	Jan-03-1892	British	"Exeter College, Oxford"	"Author, poet, philologist, and academic"
+Anthony Doerr	Oct-27-1973	American	Bowling Green State University (M.F.A.)	Novelist
